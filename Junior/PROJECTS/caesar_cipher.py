@@ -50,6 +50,3 @@ while not end_action:
     print("Alright, Exiting...")
 
 
-
-
-    
