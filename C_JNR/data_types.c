@@ -3,7 +3,8 @@
 int main(void)
 {
     char first_name[] = "James";
-    char second_name[] = "Lebron";
+    char second_name[] ="Lebron";
+
     printf("Your full name is %s %s\n",first_name,second_name); 
     char fletter = 'A';
     char sletter = 'B';
