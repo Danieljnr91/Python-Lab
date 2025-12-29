@@ -6,10 +6,7 @@ row3=['_','_','_']
 matrix_nested=[row1,row2,row3]
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 941aaef51044027d2a319cbcff1afe6f01d964cc
 def game_output(coord_list,comp_list,matrix_nest):
     row_number=coord_list[0]
     column_number=coord_list[1]
@@ -26,11 +23,7 @@ def game_output(coord_list,comp_list,matrix_nest):
         
 coordinates=[0,1,2]
 computer_choice=random.choices(coordinates,k=2)
-<<<<<<< HEAD
-
-=======
 print(computer_choice)
->>>>>>> 941aaef51044027d2a319cbcff1afe6f01d964cc
 
 chances=0
 while chances < 6:
@@ -47,4 +40,3 @@ if not any("💎" in j for j in matrix_nested):
     print(f"Ayee, better luck next time captain")
     print(f"The treasure was at coordinate {computer_choice}")
     
-
